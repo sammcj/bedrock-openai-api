@@ -1,0 +1,13 @@
+fastapi==0.115.3
+pydantic==2.9.2
+uvicorn==0.32.0
+mangum==0.19.0
+tiktoken==0.8.0
+requests==2.32.3
+numpy==1.26.4
+boto3==1.35.48
+botocore==1.35.48
+# optillm>=0.0.6
+# commented out as the upstream package has torch and transformers requirements which are massive
+# instead install optillm from /optillm provided in the Dockerfile
+# optillm@file:///optillm
